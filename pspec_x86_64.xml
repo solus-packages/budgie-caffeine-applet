@@ -1,0 +1,41 @@
+<PISI>
+    <Source>
+        <Name>budgie-caffeine-applet</Name>
+        <Packager>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <PartOf>desktop.budgie</PartOf>
+        <Summary xml:lang="en">Budgie Caffeine Applet</Summary>
+        <Description xml:lang="en">Simple applet to prevent screen dimming on long idle time.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>budgie-caffeine-applet</Name>
+        <Summary xml:lang="en">Budgie Caffeine Applet</Summary>
+        <Description xml:lang="en">Simple applet to prevent screen dimming on long idle time.
+</Description>
+        <PartOf>desktop.budgie</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-caffeine-applet/CaffeineApplet.plugin</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-caffeine-applet/budgie-caffeine-applet.py</Path>
+            <Path fileType="data">/usr/share/glib-2.0/schemas/com.github.yursan9.budgie-caffeine-applet.gschema.xml</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/status/caffeine-cup-empty.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/status/caffeine-cup-full.svg</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/symbolic/apps/my-caffeine-on-symbolic.svg</Path>
+            <Path fileType="localedata">/usr/share/locale</Path>
+            <Path fileType="data">/usr/share/metainfo/com.github.yursan9.budgie-caffeine-applet.appstream.xml</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-09-29</Date>
+            <Version>0.1.3</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
+        </Update>
+    </History>
+</PISI>

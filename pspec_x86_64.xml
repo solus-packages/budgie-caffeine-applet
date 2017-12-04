@@ -2,8 +2,8 @@
     <Source>
         <Name>budgie-caffeine-applet</Name>
         <Packager>
-            <Name>Pierre-Yves</Name>
-            <Email>pyu@riseup.net</Email>
+            <Name>Yurizal Susanto</Name>
+            <Email>rizalsagi@gmail.com</Email>
         </Packager>
         <License>GPL-2.0</License>
         <PartOf>desktop.budgie</PartOf>
@@ -21,21 +21,21 @@
         <Files>
             <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-caffeine-applet/CaffeineApplet.plugin</Path>
             <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-caffeine-applet/budgie-caffeine-applet.py</Path>
+            <Path fileType="data">/usr/share/appdata/com.github.yursan9.budgie-caffeine-applet.appdata.xml</Path>
             <Path fileType="data">/usr/share/glib-2.0/schemas/com.github.yursan9.budgie-caffeine-applet.gschema.xml</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/status/caffeine-cup-empty.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/scalable/status/caffeine-cup-full.svg</Path>
             <Path fileType="data">/usr/share/icons/hicolor/symbolic/apps/my-caffeine-on-symbolic.svg</Path>
             <Path fileType="localedata">/usr/share/locale</Path>
-            <Path fileType="data">/usr/share/metainfo/com.github.yursan9.budgie-caffeine-applet.appstream.xml</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2017-09-29</Date>
-            <Version>0.1.3</Version>
+        <Update release="2">
+            <Date>2017-12-03</Date>
+            <Version>0.1.4</Version>
             <Comment>Packaging update</Comment>
-            <Name>Pierre-Yves</Name>
-            <Email>pyu@riseup.net</Email>
+            <Name>Yurizal Susanto</Name>
+            <Email>rizalsagi@gmail.com</Email>
         </Update>
     </History>
 </PISI>

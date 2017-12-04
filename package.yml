@@ -1,8 +1,8 @@
 name       : budgie-caffeine-applet
-version    : 0.1.3
-release    : 1
+version    : 0.1.4
+release    : 2
 source     :
-    - https://github.com/yursan9/budgie-caffeine-applet/archive/v0.1.3.tar.gz : fbbc82119a33d519d61b61d822d8a993893cffd7284f8c692f6e59a518a405c4
+    - https://github.com/yursan9/budgie-caffeine-applet/archive/v0.1.4.tar.gz : 6079b190f0e4c0a6a5c5041517f19d2bc706e25a9e4b8d4e9aa59ba3b6adb3ee
 license    : GPL-2.0
 component  : desktop.budgie
 summary    : Budgie Caffeine Applet
@@ -19,6 +19,3 @@ build      : |
     %meson_build
 install    : |
     %meson_install
-
-    install -Dm 00644 data/com.github.yursan9.budgie-caffeine-applet.appstream.xml \
-    $installdir/usr/share/metainfo/com.github.yursan9.budgie-caffeine-applet.appstream.xml
